@@ -1,1 +1,3 @@
 # Tamid-Tech-Application-Project
+
+First, make sure node.js is installed on the computer. Then, open the files in VS code. In the git bash command box, enter in "node i express" and "npm i --save-dev nodemon" to ensure the express.js and nodemon dependencies are downloaded. Then enter in "nodemon server.js" to get the server running. Navigate to hhtp://localhost:4000 in a web browser to view the app. You will now a see home page titled "Tamid Board." You can click on each of the buttons to view the three member of the board featured where their position and a photo of each individual is displayed.
