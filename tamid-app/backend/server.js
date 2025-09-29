@@ -8,12 +8,10 @@ app.get('/',(req,res)=>{
     res.sendFile(path.join(__dirname, "..", "frontend", "index.html"))
 })
 
-// About page
 app.get("/abigailrosenfeld", (req, res) => {
   res.sendFile(path.join(__dirname, "..", "frontend", "abigail.html"));
 });
 
-// Contact page
 app.get("/mattheweichenholz", (req, res) => {
   res.sendFile(path.join(__dirname, "..", "frontend", "matthew.html"));
 });
@@ -24,4 +22,5 @@ app.get("/remyeidelman", (req, res) => {
 
 app.listen(4000,() => {
     console.log("Listening on port 4000")
+
 })
